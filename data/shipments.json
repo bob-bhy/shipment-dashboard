@@ -1,5 +1,27 @@
 {
   "schema_version": 1,
-  "last_sync": null,
-  "shipments": []
+  "last_sync": "2026-04-17 15:15 CST",
+  "shipments": [
+    {
+      "order_id": "TEST-20260417-001",
+      "salesperson": "Alice",
+      "carrier": "FedEx",
+      "tracking_number": "794600000001",
+      "shipped_time": "2026-04-15",
+      "current_status": "in_transit",
+      "exception_subtype": null,
+      "latest_status_text": "Shenzhen - Departed facility",
+      "latest_update_time": "2026-04-16 14:20 CST",
+      "delivered_time": null,
+      "first_seen_at": "2026-04-17 15:15 CST",
+      "last_checked_at": "2026-04-17 15:15 CST",
+      "history": [
+        {
+          "time": "2026-04-16 14:20 CST",
+          "status": "in_transit",
+          "description": "Shenzhen - Departed facility"
+        }
+      ]
+    }
+  ]
 }
