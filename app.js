@@ -7,6 +7,21 @@ const STATUS_LABEL = {
   exception: "异常",
 };
 
+// Carrier → tracking URL template. Keep in sync with constants.py#TRACKING_URLS.
+// Matching is case-insensitive so "FedEx", "fedex", "FEDEX" all work.
+const TRACKING_URL_TEMPLATES = {
+  fedex: "https://www.fedex.com/fedextrack/?trknbr={tn}",
+  dhl: "https://www.dhl.com/global-en/home/tracking.html?tracking-id={tn}",
+  ups: "https://www.ups.com/track?tracknum={tn}",
+};
+
+function trackingUrl(carrier, trackingNumber) {
+  if (!carrier || !trackingNumber) return "";
+  const tpl = TRACKING_URL_TEMPLATES[String(carrier).toLowerCase()];
+  if (!tpl) return "";
+  return tpl.replace("{tn}", encodeURIComponent(trackingNumber));
+}
+
 const STATUS_PILL_CLASS = {
   delivered: "pill pill-delivered",
   in_transit: "pill pill-in-transit",
@@ -104,17 +119,26 @@ function render() {
     for (const r of filtered) {
       const tr = document.createElement("tr");
       tr.dataset.orderId = r.order_id;
+      const url = trackingUrl(r.carrier, r.tracking_number);
+      const trackingCell = url
+        ? `<a class="tracking-link" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(r.tracking_number || "")}</a>`
+        : escapeHtml(r.tracking_number || "");
       tr.innerHTML = `
         <td class="mono">${escapeHtml(r.order_id || "")}</td>
         <td>${escapeHtml(r.salesperson || "未指定")}</td>
         <td>${escapeHtml(r.carrier || "")}</td>
-        <td class="mono">${escapeHtml(r.tracking_number || "")}</td>
+        <td class="mono">${trackingCell}</td>
         <td>${statusPill(r)}</td>
         <td>${escapeHtml(truncate(r.latest_status_text || "", 60))}</td>
         <td class="mono">${escapeHtml(r.latest_update_time || "")}</td>
         <td class="mono">${escapeHtml(r.delivered_time || "")}</td>
       `;
-      tr.addEventListener("click", () => openDetail(r));
+      tr.addEventListener("click", (e) => {
+        // Let clicks on the tracking link fall through to the carrier site
+        // without also opening the row detail modal.
+        if (e.target.closest("a")) return;
+        openDetail(r);
+      });
       tbody.appendChild(tr);
     }
   }
@@ -156,10 +180,15 @@ function statusPill(r) {
 function openDetail(r) {
   document.getElementById("detail-title").textContent = `订单 ${r.order_id}`;
   const meta = document.getElementById("detail-meta");
+  const url = trackingUrl(r.carrier, r.tracking_number);
+  // Sentinel object: the renderer below treats {raw: "..."} as pre-escaped HTML.
+  const trackingValue = url && r.tracking_number
+    ? { raw: `<a class="tracking-link" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(r.tracking_number)}</a>` }
+    : (r.tracking_number || "");
   const rows = [
     ["业务员", r.salesperson || "未指定"],
     ["快递", r.carrier || ""],
-    ["快递单号", r.tracking_number || ""],
+    ["快递单号", trackingValue],
     ["发货时间", r.shipped_time || ""],
     ["当前状态", STATUS_LABEL[r.current_status] || r.current_status || ""],
     ["异常子类型", r.exception_subtype || ""],
@@ -170,10 +199,11 @@ function openDetail(r) {
   ];
   meta.innerHTML = rows
     .filter(([, v]) => v)
-    .map(
-      ([k, v]) =>
-        `<dt>${escapeHtml(k)}</dt><dd>${escapeHtml(String(v))}</dd>`
-    )
+    .map(([k, v]) => {
+      const valueHtml =
+        v && typeof v === "object" && "raw" in v ? v.raw : escapeHtml(String(v));
+      return `<dt>${escapeHtml(k)}</dt><dd>${valueHtml}</dd>`;
+    })
     .join("");
 
   const tl = document.getElementById("detail-timeline");

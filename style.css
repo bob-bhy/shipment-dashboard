@@ -209,6 +209,21 @@ td.mono {
   font-size: 12.5px;
 }
 
+/* Tracking-number links: understated until hover, so the table stays clean.
+   Dashed underline hints "clickable" without shouting. */
+a.tracking-link {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--border-strong);
+  transition: color 0.15s, border-color 0.15s;
+}
+
+a.tracking-link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  text-decoration: none;
+}
+
 /* Status pills */
 .pill {
   display: inline-block;
