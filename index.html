@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>物流单号看板</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>物流单号看板</h1>
+      <p class="subtitle" id="subtitle">加载中…</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="stats" id="stats">
+      <div class="stat-card" data-filter="all">
+        <div class="stat-label">全部</div>
+        <div class="stat-value" id="stat-all">—</div>
+      </div>
+      <div class="stat-card" data-filter="delivered">
+        <div class="stat-label">已妥投</div>
+        <div class="stat-value" id="stat-delivered">—</div>
+      </div>
+      <div class="stat-card" data-filter="in_transit">
+        <div class="stat-label">在途</div>
+        <div class="stat-value" id="stat-in-transit">—</div>
+      </div>
+      <div class="stat-card" data-filter="exception">
+        <div class="stat-label">异常</div>
+        <div class="stat-value" id="stat-exception">—</div>
+      </div>
+    </section>
+
+    <section class="controls">
+      <input
+        type="search"
+        id="search"
+        placeholder="搜索订单号、快递单号、状态描述…"
+        autocomplete="off"
+      />
+      <select id="filter-salesperson">
+        <option value="">全部业务员</option>
+      </select>
+      <select id="filter-status">
+        <option value="">全部状态</option>
+        <option value="delivered">已妥投</option>
+        <option value="in_transit">在途</option>
+        <option value="exception">异常</option>
+      </select>
+      <button id="btn-reset" type="button">重置</button>
+    </section>
+
+    <section class="table-wrapper">
+      <table id="shipments-table">
+        <thead>
+          <tr>
+            <th>订单号</th>
+            <th>业务员</th>
+            <th>快递</th>
+            <th>单号</th>
+            <th>状态</th>
+            <th>最新描述</th>
+            <th>最新更新</th>
+            <th>签收时间</th>
+          </tr>
+        </thead>
+        <tbody id="shipments-body"></tbody>
+      </table>
+      <p class="empty" id="empty-state" hidden>没有匹配的记录</p>
+    </section>
+  </main>
+
+  <!-- 详情弹层 -->
+  <div class="modal" id="detail-modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close aria-label="关闭">×</button>
+      <h2 id="detail-title">订单详情</h2>
+      <dl id="detail-meta"></dl>
+      <h3>历史轨迹</h3>
+      <ol id="detail-timeline" class="timeline"></ol>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <span id="last-sync">—</span>
+    <span class="dot">·</span>
+    <a href="https://github.com/bob-bhy/shipment-dashboard" target="_blank" rel="noopener">GitHub</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
