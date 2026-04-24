@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_sync": "2026-04-24 10:07 CST",
+  "last_sync": "2026-04-24 10:30 CST",
   "shipments": [
     {
       "order_id": "SA-NESTLE-260309-FT",
@@ -35,7 +35,7 @@
       "latest_update_time": "2026-04-17 11:54",
       "delivered_time": null,
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-17 09:00",
@@ -61,7 +61,7 @@
       "latest_update_time": "2026-03-19 18:01",
       "delivered_time": null,
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-03-19 18:01",
@@ -82,7 +82,7 @@
       "latest_update_time": "2026-04-21 04:18",
       "delivered_time": null,
       "first_seen_at": "2026-04-22 10:32 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-21 04:18",
@@ -108,7 +108,7 @@
       "latest_update_time": "2026-04-21 04:18",
       "delivered_time": null,
       "first_seen_at": "2026-04-23 10:32 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-21 04:18",
@@ -134,7 +134,7 @@
       "latest_update_time": "2026-04-23 13:03",
       "delivered_time": null,
       "first_seen_at": "2026-04-20 09:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-20 03:04",
@@ -160,7 +160,7 @@
       "latest_update_time": "2026-04-23 17:02",
       "delivered_time": null,
       "first_seen_at": "2026-04-20 09:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-18 07:53",
@@ -191,7 +191,7 @@
       "latest_update_time": "2026-04-23 18:50",
       "delivered_time": null,
       "first_seen_at": "2026-04-22 10:32 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-21 15:09:45",
@@ -222,7 +222,7 @@
       "latest_update_time": "2026-04-23 18:56",
       "delivered_time": null,
       "first_seen_at": "2026-04-23 10:32 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-22 21:10",
@@ -248,7 +248,7 @@
       "latest_update_time": "2026-04-23 21:17",
       "delivered_time": null,
       "first_seen_at": "2026-04-20 09:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-17 04:10",
@@ -284,7 +284,7 @@
       "latest_update_time": "2026-04-23 22:54",
       "delivered_time": null,
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-14 20:06",
@@ -315,7 +315,7 @@
       "latest_update_time": "2026-04-23 22:54",
       "delivered_time": null,
       "first_seen_at": "2026-04-22 10:32 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-22 07:30",
@@ -336,7 +336,7 @@
       "latest_update_time": "2026-04-23 22:54",
       "delivered_time": null,
       "first_seen_at": "2026-04-22 10:32 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-22 07:30",
@@ -357,7 +357,7 @@
       "latest_update_time": "2026-04-24 02:47",
       "delivered_time": null,
       "first_seen_at": "2026-04-22 10:32 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-21 15:09:45",
@@ -388,7 +388,7 @@
       "latest_update_time": "2026-04-24 03:39",
       "delivered_time": null,
       "first_seen_at": "2026-04-22 10:32 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-21 21:17",
@@ -440,7 +440,7 @@
       "latest_update_time": "2026-03-17 10:40",
       "delivered_time": "2026-03-17 10:40",
       "first_seen_at": "2026-04-20 09:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-03-17 10:40",
@@ -713,7 +713,7 @@
       "latest_update_time": "2026-04-17 11:33",
       "delivered_time": "2026-04-17 11:33",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-16 21:46",
@@ -739,7 +739,7 @@
       "latest_update_time": "2026-04-17 13:27",
       "delivered_time": "2026-04-17 13:27",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-17 07:14",
@@ -765,7 +765,7 @@
       "latest_update_time": "2026-04-20 09:47",
       "delivered_time": "2026-04-20 09:47",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-16 10:44",
@@ -796,7 +796,7 @@
       "latest_update_time": "2026-04-20 10:36",
       "delivered_time": "2026-04-20 10:36",
       "first_seen_at": "2026-04-20 09:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-20 00:29",
@@ -827,7 +827,7 @@
       "latest_update_time": "2026-04-20 12:07",
       "delivered_time": "2026-04-20 12:07",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-16 10:40",
@@ -858,7 +858,7 @@
       "latest_update_time": "2026-04-20 13:12",
       "delivered_time": "2026-04-20 13:12",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-15 20:05",
@@ -889,7 +889,7 @@
       "latest_update_time": "2026-04-20 19:00",
       "delivered_time": "2026-04-20 19:00",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-16 14:05",
@@ -920,7 +920,7 @@
       "latest_update_time": "2026-04-22 13:41",
       "delivered_time": "2026-04-22 13:41",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-17 00:00",
@@ -951,7 +951,7 @@
       "latest_update_time": "2026-04-22 15:55",
       "delivered_time": "2026-04-22 15:55",
       "first_seen_at": "2026-04-21 10:40 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-21 09:07",
@@ -982,7 +982,7 @@
       "latest_update_time": "2026-04-22 17:57",
       "delivered_time": "2026-04-22 17:57",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-15 19:13",
@@ -1023,7 +1023,7 @@
       "latest_update_time": "2026-04-23 20:10",
       "delivered_time": "2026-04-23 20:10",
       "first_seen_at": "2026-04-20 09:25 CST",
-      "last_checked_at": "2026-04-24 10:07 CST",
+      "last_checked_at": "2026-04-24 10:30 CST",
       "history": [
         {
           "time": "2026-04-17 18:40:49",
