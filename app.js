@@ -34,6 +34,9 @@ const state = {
     search: "",
     salesperson: "",
     status: "",
+    // 默认隐藏已签收：用户视角是"还没解决的单才需要看"。
+    // 点"已妥投"或"全部"卡片时切到 true，让已签收也显示出来（带划线样式）。
+    showDelivered: false,
   },
 };
 
@@ -71,9 +74,12 @@ function applyFilters(rows) {
   const q = state.filters.search.trim().toLowerCase();
   const sp = state.filters.salesperson;
   const st = state.filters.status;
+  const showDelivered = state.filters.showDelivered;
   return rows.filter((r) => {
     if (sp && r.salesperson !== sp) return false;
     if (st && r.current_status !== st) return false;
+    // 没有显式选 status 时，默认排除已签收（除非用户点了"全部"或"已妥投"）
+    if (!st && !showDelivered && r.current_status === "delivered") return false;
     if (q) {
       const hay = [
         r.order_id,
@@ -119,6 +125,9 @@ function render() {
     for (const r of filtered) {
       const tr = document.createElement("tr");
       tr.dataset.orderId = r.order_id;
+      // 行级状态 class：异常红底，已签收灰色划线
+      if (r.current_status === "exception") tr.classList.add("row-exception");
+      else if (r.current_status === "delivered") tr.classList.add("row-delivered");
       const url = trackingUrl(r.carrier, r.tracking_number);
       const trackingCell = url
         ? `<a class="tracking-link" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(r.tracking_number || "")}</a>`
@@ -257,11 +266,19 @@ document.getElementById("filter-salesperson").addEventListener("change", (e) => 
 
 document.getElementById("filter-status").addEventListener("change", (e) => {
   state.filters.status = e.target.value;
+  // 用户主动选"已妥投"或"全部状态"时，已签收行应该显示；选其他则隐藏。
+  state.filters.showDelivered =
+    state.filters.status === "" || state.filters.status === "delivered";
   render();
 });
 
 document.getElementById("btn-reset").addEventListener("click", () => {
-  state.filters = { search: "", salesperson: "", status: "" };
+  state.filters = {
+    search: "",
+    salesperson: "",
+    status: "",
+    showDelivered: false,
+  };
   document.getElementById("search").value = "";
   document.getElementById("filter-salesperson").value = "";
   document.getElementById("filter-status").value = "";
@@ -272,6 +289,9 @@ document.querySelectorAll(".stat-card").forEach((card) => {
   card.addEventListener("click", () => {
     const f = card.dataset.filter;
     state.filters.status = f === "all" ? "" : f;
+    // 点"全部"或"已妥投"时，让已签收行也显示（含划线样式）；
+    // 点"在途"/"异常"时回归默认隐藏。
+    state.filters.showDelivered = f === "all" || f === "delivered";
     document.getElementById("filter-status").value = state.filters.status;
     render();
   });

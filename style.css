@@ -204,6 +204,23 @@ tbody tr:hover {
   background: #f9f7f1;
 }
 
+/* Exception 行：浅红底，让需要跟进的单一眼可见 */
+tbody tr.row-exception td {
+  background: var(--danger-soft);
+}
+tbody tr.row-exception:hover td {
+  background: #f8d6cc;
+}
+
+/* Delivered 行：默认被过滤掉；显示时整行划线 + 灰化，弱化优先级 */
+tbody tr.row-delivered td {
+  color: var(--text-muted);
+}
+tbody tr.row-delivered td:not(:last-child) {
+  text-decoration: line-through;
+  text-decoration-color: var(--border-strong);
+}
+
 td.mono {
   font-family: var(--font-mono);
   font-size: 12.5px;
