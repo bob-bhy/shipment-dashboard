@@ -1,79 +1,7 @@
 {
   "schema_version": 1,
-  "last_sync": "2026-05-05 10:31 CST",
+  "last_sync": "2026-05-06 10:31 CST",
   "shipments": [
-    {
-      "order_id": "MA-MA-260312-HW",
-      "salesperson": "Lexie Tang",
-      "carrier": "FedEx",
-      "tracking_number": "870894705347",
-      "shipped_time": "2026-04-21",
-      "current_status": "exception",
-      "exception_subtype": "清关延误",
-      "latest_status_text": "延误",
-      "latest_update_time": "2026-04-27 14:20",
-      "delivered_time": null,
-      "first_seen_at": "2026-04-22 10:32 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
-      "history": [
-        {
-          "time": "2026-04-21 04:18",
-          "status": "in_transit",
-          "description": "Shipment information sent…"
-        },
-        {
-          "time": "2026-04-21 04:18",
-          "status": "in_transit",
-          "description": "运单已创建，待提货"
-        },
-        {
-          "time": "2026-04-27 03:33",
-          "status": "in_transit",
-          "description": "[France,ROISSY CHARLES DE…"
-        },
-        {
-          "time": "2026-04-27 14:20",
-          "status": "exception",
-          "description": "延误"
-        }
-      ]
-    },
-    {
-      "order_id": "W2-IT-VIK-260417-HW",
-      "salesperson": "Jenny Xia",
-      "carrier": "FedEx",
-      "tracking_number": "870894705347",
-      "shipped_time": "2026-04-21",
-      "current_status": "exception",
-      "exception_subtype": "清关延误",
-      "latest_status_text": "延误",
-      "latest_update_time": "2026-04-27 14:20",
-      "delivered_time": null,
-      "first_seen_at": "2026-04-23 10:32 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
-      "history": [
-        {
-          "time": "2026-04-21 04:18",
-          "status": "in_transit",
-          "description": "Shipment information sent…"
-        },
-        {
-          "time": "2026-04-21 04:18",
-          "status": "in_transit",
-          "description": "运单已创建，待提货"
-        },
-        {
-          "time": "2026-04-27 03:33",
-          "status": "in_transit",
-          "description": "[France,ROISSY CHARLES DE…"
-        },
-        {
-          "time": "2026-04-27 14:20",
-          "status": "exception",
-          "description": "延误"
-        }
-      ]
-    },
     {
       "order_id": "W2-IL-YARO-260422-CIS",
       "salesperson": "Andy Zhou",
@@ -86,7 +14,7 @@
       "latest_update_time": "2026-05-04 07:59",
       "delivered_time": null,
       "first_seen_at": "2026-04-29 15:19 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-28 20:02",
@@ -101,6 +29,27 @@
       ]
     },
     {
+      "order_id": "W2-FR-ACCO-260428-FT",
+      "salesperson": "Jenny Xia",
+      "carrier": "UPS",
+      "tracking_number": "1Z78Y0340424601032",
+      "shipped_time": "2026-04-30",
+      "current_status": "exception",
+      "exception_subtype": "运营延误",
+      "latest_status_text": "由于操作条件，您的包裹可能会延误。",
+      "latest_update_time": "2026-05-04 10:20",
+      "delivered_time": null,
+      "first_seen_at": "2026-05-06 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-05-04 10:20",
+          "status": "exception",
+          "description": "由于操作条件，您的包裹可能会延误。"
+        }
+      ]
+    },
+    {
       "order_id": "SA-DATA-260331-CIS",
       "salesperson": "Grace Ho",
       "carrier": "UPS",
@@ -108,11 +57,11 @@
       "shipped_time": "2026-04-29",
       "current_status": "exception",
       "exception_subtype": "其他异常",
-      "latest_status_text": "您的包裹未全部到齐，暂时无法办理申报手续。",
-      "latest_update_time": "2026-05-04 11:05",
+      "latest_status_text": "收件人已对关税或税款提出异议或拒绝支付。等待付款。",
+      "latest_update_time": "2026-05-05 10:04",
       "delivered_time": null,
       "first_seen_at": "2026-04-28 11:28 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-28 11:18:17",
@@ -138,58 +87,125 @@
           "time": "2026-05-04 11:05",
           "status": "exception",
           "description": "您的包裹未全部到齐，暂时无法办理申报手续。"
-        }
-      ]
-    },
-    {
-      "order_id": "ZM-PH-260410-CIS",
-      "salesperson": "Mia huang",
-      "carrier": "FedEx",
-      "tracking_number": "871028817130",
-      "shipped_time": "2026-04-24",
-      "current_status": "exception",
-      "exception_subtype": "其他异常",
-      "latest_status_text": "[Zambia,LUSAKA]At local…",
-      "latest_update_time": "2026-05-04 19:07",
-      "delivered_time": null,
-      "first_seen_at": "2026-04-27 10:31 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
-      "history": [
-        {
-          "time": "2026-04-26 09:01",
-          "status": "in_transit",
-          "description": "清关处理中"
         },
         {
-          "time": "2026-05-04 19:07",
+          "time": "2026-05-05 10:04",
           "status": "exception",
-          "description": "[Zambia,LUSAKA]At local…"
+          "description": "收件人已对关税或税款提出异议或拒绝支付。等待付款。"
         }
       ]
     },
     {
-      "order_id": "FR-HB-260420-HW",
-      "salesperson": "Jenny Xia",
+      "order_id": "SA-AET-260416-CIS",
+      "salesperson": "Grace Ho",
       "carrier": "FedEx",
-      "tracking_number": "871239479266",
-      "shipped_time": "2026-04-30",
+      "tracking_number": "871195942822",
+      "shipped_time": "2026-04-29",
       "current_status": "exception",
-      "exception_subtype": "其他异常",
-      "latest_status_text": "[France,ALLONZIER LA…",
-      "latest_update_time": "2026-05-05 02:32",
+      "exception_subtype": "派送失败",
+      "latest_status_text": "[Saudi…",
+      "latest_update_time": "2026-05-05 15:51",
       "delivered_time": null,
-      "first_seen_at": "2026-04-30 11:12 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "first_seen_at": "2026-04-29 15:19 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
-          "time": "2026-04-29 19:33",
-          "status": "exception",
+          "time": "2026-04-28 22:31",
+          "status": "in_transit",
           "description": "运单已创建，待提货"
         },
         {
-          "time": "2026-05-05 02:32",
+          "time": "2026-04-30 06:43",
+          "status": "in_transit",
+          "description": "[Hong Kong SAR,…"
+        },
+        {
+          "time": "2026-05-04 20:38",
+          "status": "in_transit",
+          "description": "[Saudi Arabia,DAMMAM]At…"
+        },
+        {
+          "time": "2026-05-05 15:51",
           "status": "exception",
-          "description": "[France,ALLONZIER LA…"
+          "description": "[Saudi…"
+        }
+      ]
+    },
+    {
+      "order_id": "W1-GR-FG-260427-CIS",
+      "salesperson": "Andy Zhou",
+      "carrier": "UPS",
+      "tracking_number": "1Z54W8116799499006",
+      "shipped_time": "2026-04-28",
+      "current_status": "exception",
+      "exception_subtype": "其他异常",
+      "latest_status_text": "进口扫描",
+      "latest_update_time": "2026-05-05 16:02",
+      "delivered_time": null,
+      "first_seen_at": "2026-04-29 15:19 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-04-28 11:51",
+          "status": "in_transit",
+          "description": "发件人已创建标签，但是 UPS 尚未收到包裹。"
+        },
+        {
+          "time": "2026-04-29 17:14",
+          "status": "in_transit",
+          "description": "出口扫描"
+        },
+        {
+          "time": "2026-05-04 19:13",
+          "status": "in_transit",
+          "description": "货栈扫描"
+        },
+        {
+          "time": "2026-05-05 16:02",
+          "status": "exception",
+          "description": "进口扫描"
+        }
+      ]
+    },
+    {
+      "order_id": "W1-IE-ACI-260502-CIS",
+      "salesperson": "Andy Zhou",
+      "carrier": "DHL",
+      "tracking_number": "2324990360",
+      "shipped_time": "2026-05-05",
+      "current_status": "in_transit",
+      "exception_subtype": null,
+      "latest_status_text": "邮件已同步，待物流状态脚本更新",
+      "latest_update_time": "2026-05-05 17:42:49",
+      "delivered_time": null,
+      "first_seen_at": "2026-05-06 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-05-05 17:42:49",
+          "status": "in_transit",
+          "description": "邮件已同步，待物流状态脚本更新"
+        }
+      ]
+    },
+    {
+      "order_id": "LR-SY-260422-FT",
+      "salesperson": "Mia huang",
+      "carrier": "FedEx",
+      "tracking_number": "871409712635",
+      "shipped_time": "2026-05-05",
+      "current_status": "in_transit",
+      "exception_subtype": null,
+      "latest_status_text": "邮件已同步，待物流状态脚本更新",
+      "latest_update_time": "2026-05-05 17:42:49",
+      "delivered_time": null,
+      "first_seen_at": "2026-05-06 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-05-05 17:42:49",
+          "status": "in_transit",
+          "description": "邮件已同步，待物流状态脚本更新"
         }
       ]
     },
@@ -205,7 +221,7 @@
       "latest_update_time": "2026-04-30 17:23",
       "delivered_time": null,
       "first_seen_at": "2026-04-22 10:32 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-22 07:30",
@@ -230,85 +246,23 @@
       ]
     },
     {
-      "order_id": "LU-LNW-260410-JNP",
-      "salesperson": "Grace Ho",
+      "order_id": "W1-BF-ITEN-260420-DL",
+      "salesperson": "Mia huang",
       "carrier": "FedEx",
-      "tracking_number": "871146516149",
-      "shipped_time": "2026-04-28",
+      "tracking_number": "871248297654",
+      "shipped_time": "2026-04-30",
       "current_status": "in_transit",
       "exception_subtype": null,
-      "latest_status_text": "[Luxembourg,DUDELANGE]At…",
-      "latest_update_time": "2026-05-04 04:58",
+      "latest_status_text": "运输中",
+      "latest_update_time": "2026-05-03 07:39",
       "delivered_time": null,
-      "first_seen_at": "2026-04-28 11:28 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "first_seen_at": "2026-05-06 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
-          "time": "2026-04-27 22:05",
-          "status": "in_transit",
-          "description": "运单已创建，待提货"
-        },
-        {
-          "time": "2026-04-29 08:32",
+          "time": "2026-05-03 07:39",
           "status": "in_transit",
           "description": "运输中"
-        },
-        {
-          "time": "2026-05-04 04:58",
-          "status": "in_transit",
-          "description": "[Luxembourg,DUDELANGE]At…"
-        }
-      ]
-    },
-    {
-      "order_id": "PL-DE-260417-FU",
-      "salesperson": "Andy Zhou",
-      "carrier": "DHL",
-      "tracking_number": "6796653146",
-      "shipped_time": "2026-04-29",
-      "current_status": "in_transit",
-      "exception_subtype": null,
-      "latest_status_text": "等待付款中",
-      "latest_update_time": "2026-05-04 10:49",
-      "delivered_time": null,
-      "first_seen_at": "2026-05-05 10:31 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
-      "history": [
-        {
-          "time": "2026-05-04 10:49",
-          "status": "in_transit",
-          "description": "等待付款中"
-        }
-      ]
-    },
-    {
-      "order_id": "W2-SA-SALCO-260427-AB",
-      "salesperson": "Jenny Xia",
-      "carrier": "DHL",
-      "tracking_number": "3756804726",
-      "shipped_time": "2026-04-28",
-      "current_status": "in_transit",
-      "exception_subtype": null,
-      "latest_status_text": "派送时收件人已搬离运单收件地址",
-      "latest_update_time": "2026-05-04 11:20",
-      "delivered_time": null,
-      "first_seen_at": "2026-04-29 15:19 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
-      "history": [
-        {
-          "time": "2026-04-29 10:38:13",
-          "status": "in_transit",
-          "description": "邮件已同步，待物流状态脚本更新"
-        },
-        {
-          "time": "2026-04-29 14:46",
-          "status": "in_transit",
-          "description": "快件正在转运途中"
-        },
-        {
-          "time": "2026-05-04 11:20",
-          "status": "in_transit",
-          "description": "派送时收件人已搬离运单收件地址"
         }
       ]
     },
@@ -324,7 +278,7 @@
       "latest_update_time": "2026-05-04 12:23",
       "delivered_time": null,
       "first_seen_at": "2026-04-27 10:31 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-23 05:13",
@@ -356,11 +310,11 @@
       "shipped_time": "2026-04-29",
       "current_status": "in_transit",
       "exception_subtype": null,
-      "latest_status_text": "清关中",
+      "latest_status_text": "清关中 LARNACA - CYPRUS",
       "latest_update_time": "2026-05-04 12:54",
       "delivered_time": null,
       "first_seen_at": "2026-04-29 15:19 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-29 15:17:47",
@@ -376,120 +330,182 @@
           "time": "2026-05-04 12:54",
           "status": "in_transit",
           "description": "清关中"
-        }
-      ]
-    },
-    {
-      "order_id": "IT-ID-260407-HW",
-      "salesperson": "Jenny Xia",
-      "carrier": "FedEx",
-      "tracking_number": "871150372937",
-      "shipped_time": "2026-04-28",
-      "current_status": "in_transit",
-      "exception_subtype": null,
-      "latest_status_text": "[Italy,TEVEROLA]Departed…",
-      "latest_update_time": "2026-05-04 13:40",
-      "delivered_time": null,
-      "first_seen_at": "2026-04-29 15:19 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
-      "history": [
-        {
-          "time": "2026-04-29 08:32",
-          "status": "in_transit",
-          "description": "运输中"
         },
         {
-          "time": "2026-04-30 04:18",
+          "time": "2026-05-04 12:54",
           "status": "in_transit",
-          "description": "[France,ROISSY CHARLES DE…"
-        },
-        {
-          "time": "2026-05-04 13:40",
-          "status": "in_transit",
-          "description": "[Italy,TEVEROLA]Departed…"
+          "description": "清关中 LARNACA - CYPRUS"
         }
       ]
     },
     {
-      "order_id": "LR-SY-260409-FT-DL",
-      "salesperson": "Mia huang",
-      "carrier": "DHL",
-      "tracking_number": "1429727213",
-      "shipped_time": "2026-04-22",
-      "current_status": "in_transit",
-      "exception_subtype": null,
-      "latest_status_text": "快件清关中",
-      "latest_update_time": "2026-05-04 13:58",
-      "delivered_time": null,
-      "first_seen_at": "2026-04-27 10:31 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
-      "history": [
-        {
-          "time": "2026-04-24 13:34",
-          "status": "in_transit",
-          "description": "快件清关中"
-        }
-      ]
-    },
-    {
-      "order_id": "W1-GR-FG-260427-CIS",
+      "order_id": "PL-DE-260417-FU",
       "salesperson": "Andy Zhou",
-      "carrier": "UPS",
-      "tracking_number": "1Z54W8116799499006",
-      "shipped_time": "2026-04-28",
-      "current_status": "in_transit",
-      "exception_subtype": null,
-      "latest_status_text": "货栈扫描",
-      "latest_update_time": "2026-05-04 19:13",
-      "delivered_time": null,
-      "first_seen_at": "2026-04-29 15:19 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
-      "history": [
-        {
-          "time": "2026-04-28 11:51",
-          "status": "in_transit",
-          "description": "发件人已创建标签，但是 UPS 尚未收到包裹。"
-        },
-        {
-          "time": "2026-04-29 17:14",
-          "status": "in_transit",
-          "description": "出口扫描"
-        },
-        {
-          "time": "2026-05-04 19:13",
-          "status": "in_transit",
-          "description": "货栈扫描"
-        }
-      ]
-    },
-    {
-      "order_id": "SA-AET-260416-CIS",
-      "salesperson": "Grace Ho",
-      "carrier": "FedEx",
-      "tracking_number": "871195942822",
+      "carrier": "DHL",
+      "tracking_number": "6796653146",
       "shipped_time": "2026-04-29",
       "current_status": "in_transit",
       "exception_subtype": null,
-      "latest_status_text": "[Saudi Arabia,DAMMAM]At…",
-      "latest_update_time": "2026-05-04 20:38",
+      "latest_status_text": "转交至第三方派送",
+      "latest_update_time": "2026-05-05 08:49",
       "delivered_time": null,
-      "first_seen_at": "2026-04-29 15:19 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "first_seen_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
-          "time": "2026-04-28 22:31",
+          "time": "2026-05-04 10:49",
+          "status": "in_transit",
+          "description": "等待付款中"
+        },
+        {
+          "time": "2026-05-05 08:49",
+          "status": "in_transit",
+          "description": "转交至第三方派送"
+        }
+      ]
+    },
+    {
+      "order_id": "MA-MA-260312-HW",
+      "salesperson": "Lexie Tang",
+      "carrier": "FedEx",
+      "tracking_number": "870894705347",
+      "shipped_time": "2026-04-21",
+      "current_status": "in_transit",
+      "exception_subtype": null,
+      "latest_status_text": "[Morocco,CASABLANCA]At…",
+      "latest_update_time": "2026-05-05 18:50",
+      "delivered_time": null,
+      "first_seen_at": "2026-04-22 10:32 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-04-21 04:18",
+          "status": "in_transit",
+          "description": "Shipment information sent…"
+        },
+        {
+          "time": "2026-04-21 04:18",
           "status": "in_transit",
           "description": "运单已创建，待提货"
         },
         {
-          "time": "2026-04-30 06:43",
+          "time": "2026-04-27 03:33",
           "status": "in_transit",
-          "description": "[Hong Kong SAR,…"
+          "description": "[France,ROISSY CHARLES DE…"
         },
         {
-          "time": "2026-05-04 20:38",
+          "time": "2026-04-27 14:20",
+          "status": "exception",
+          "description": "延误"
+        },
+        {
+          "time": "2026-05-05 18:50",
           "status": "in_transit",
-          "description": "[Saudi Arabia,DAMMAM]At…"
+          "description": "[Morocco,CASABLANCA]At…"
+        }
+      ]
+    },
+    {
+      "order_id": "W2-IT-VIK-260417-HW",
+      "salesperson": "Jenny Xia",
+      "carrier": "FedEx",
+      "tracking_number": "870894705347",
+      "shipped_time": "2026-04-21",
+      "current_status": "in_transit",
+      "exception_subtype": null,
+      "latest_status_text": "[Morocco,CASABLANCA]At…",
+      "latest_update_time": "2026-05-05 18:50",
+      "delivered_time": null,
+      "first_seen_at": "2026-04-23 10:32 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-04-21 04:18",
+          "status": "in_transit",
+          "description": "Shipment information sent…"
+        },
+        {
+          "time": "2026-04-21 04:18",
+          "status": "in_transit",
+          "description": "运单已创建，待提货"
+        },
+        {
+          "time": "2026-04-27 03:33",
+          "status": "in_transit",
+          "description": "[France,ROISSY CHARLES DE…"
+        },
+        {
+          "time": "2026-04-27 14:20",
+          "status": "exception",
+          "description": "延误"
+        },
+        {
+          "time": "2026-05-05 18:50",
+          "status": "in_transit",
+          "description": "[Morocco,CASABLANCA]At…"
+        }
+      ]
+    },
+    {
+      "order_id": "PT-HID-260423-CIS",
+      "salesperson": "Grace Ho",
+      "carrier": "FedEx",
+      "tracking_number": "871409682628",
+      "shipped_time": "2026-05-05",
+      "current_status": "in_transit",
+      "exception_subtype": null,
+      "latest_status_text": "运输中",
+      "latest_update_time": "2026-05-06 07:43",
+      "delivered_time": null,
+      "first_seen_at": "2026-05-06 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-05-06 07:43",
+          "status": "in_transit",
+          "description": "运输中"
+        }
+      ]
+    },
+    {
+      "order_id": "BG-ASAP-260429-CIS",
+      "salesperson": "Grace Ho",
+      "carrier": "FedEx",
+      "tracking_number": "871406671920",
+      "shipped_time": "2026-05-05",
+      "current_status": "in_transit",
+      "exception_subtype": null,
+      "latest_status_text": "运输中",
+      "latest_update_time": "2026-05-06 07:43",
+      "delivered_time": null,
+      "first_seen_at": "2026-05-06 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-05-06 07:43",
+          "status": "in_transit",
+          "description": "运输中"
+        }
+      ]
+    },
+    {
+      "order_id": "EE-CYBE-260415-JNP",
+      "salesperson": "Bob Bao",
+      "carrier": "FedEx",
+      "tracking_number": "871406620664",
+      "shipped_time": "2026-05-05",
+      "current_status": "in_transit",
+      "exception_subtype": null,
+      "latest_status_text": "[Hong Kong SAR,…",
+      "latest_update_time": "2026-05-06 07:48",
+      "delivered_time": null,
+      "first_seen_at": "2026-05-06 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-05-06 07:48",
+          "status": "in_transit",
+          "description": "[Hong Kong SAR,…"
         }
       ]
     },
@@ -505,7 +521,7 @@
       "latest_update_time": "2026-03-17 10:40",
       "delivered_time": "2026-03-17 10:40",
       "first_seen_at": "2026-04-20 09:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-03-17 10:40",
@@ -526,7 +542,7 @@
       "latest_update_time": "2026-04-17 11:33",
       "delivered_time": "2026-04-17 11:33",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-16 21:46",
@@ -552,7 +568,7 @@
       "latest_update_time": "2026-04-17 13:27",
       "delivered_time": "2026-04-17 13:27",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-17 07:14",
@@ -578,7 +594,7 @@
       "latest_update_time": "2026-04-20 09:47",
       "delivered_time": "2026-04-20 09:47",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-16 10:44",
@@ -609,7 +625,7 @@
       "latest_update_time": "2026-04-20 10:36",
       "delivered_time": "2026-04-20 10:36",
       "first_seen_at": "2026-04-20 09:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-20 00:29",
@@ -640,7 +656,7 @@
       "latest_update_time": "2026-04-20 12:07",
       "delivered_time": "2026-04-20 12:07",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-16 10:40",
@@ -671,7 +687,7 @@
       "latest_update_time": "2026-04-20 13:12",
       "delivered_time": "2026-04-20 13:12",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-15 20:05",
@@ -702,7 +718,7 @@
       "latest_update_time": "2026-04-20 19:00",
       "delivered_time": "2026-04-20 19:00",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-16 14:05",
@@ -733,7 +749,7 @@
       "latest_update_time": "2026-04-22 13:41",
       "delivered_time": "2026-04-22 13:41",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-17 00:00",
@@ -764,7 +780,7 @@
       "latest_update_time": "2026-04-22 15:55",
       "delivered_time": "2026-04-22 15:55",
       "first_seen_at": "2026-04-21 10:40 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-21 09:07",
@@ -795,7 +811,7 @@
       "latest_update_time": "2026-04-22 17:57",
       "delivered_time": "2026-04-22 17:57",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-15 19:13",
@@ -836,7 +852,7 @@
       "latest_update_time": "2026-04-23 20:10",
       "delivered_time": "2026-04-23 20:10",
       "first_seen_at": "2026-04-20 09:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-17 18:40:49",
@@ -877,7 +893,7 @@
       "latest_update_time": "2026-04-24 09:45",
       "delivered_time": "2026-04-24 09:45",
       "first_seen_at": "2026-04-23 10:32 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-22 21:10",
@@ -908,7 +924,7 @@
       "latest_update_time": "2026-04-24 10:08",
       "delivered_time": "2026-04-24 10:08",
       "first_seen_at": "2026-04-22 10:32 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-21 15:09:45",
@@ -944,7 +960,7 @@
       "latest_update_time": "2026-04-24 12:20",
       "delivered_time": "2026-04-24 12:20",
       "first_seen_at": "2026-04-22 10:32 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-21 21:17",
@@ -980,7 +996,7 @@
       "latest_update_time": "2026-04-27 12:43",
       "delivered_time": "2026-04-27 12:43",
       "first_seen_at": "2026-04-22 10:32 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-21 15:09:45",
@@ -1021,7 +1037,7 @@
       "latest_update_time": "2026-04-27 14:33",
       "delivered_time": "2026-04-27 14:33",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-17 09:00",
@@ -1052,7 +1068,7 @@
       "latest_update_time": "2026-04-28 10:39",
       "delivered_time": "2026-04-28 10:39",
       "first_seen_at": "2026-04-27 10:31 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-25 00:23",
@@ -1083,7 +1099,7 @@
       "latest_update_time": "2026-04-28 11:38",
       "delivered_time": "2026-04-28 11:38",
       "first_seen_at": "2026-04-27 10:31 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-26 23:31",
@@ -1114,7 +1130,7 @@
       "latest_update_time": "2026-04-28 15:28",
       "delivered_time": "2026-04-28 15:28",
       "first_seen_at": "2026-04-20 09:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-18 07:53",
@@ -1160,7 +1176,7 @@
       "latest_update_time": "2026-04-29 11:54",
       "delivered_time": "2026-04-29 11:54",
       "first_seen_at": "2026-04-27 10:31 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-27 03:56",
@@ -1196,7 +1212,7 @@
       "latest_update_time": "2026-04-29 12:44",
       "delivered_time": "2026-04-29 12:44",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-03-19 18:01",
@@ -1227,7 +1243,7 @@
       "latest_update_time": "2026-04-29 14:24",
       "delivered_time": "2026-04-29 14:24",
       "first_seen_at": "2026-04-20 09:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-17 04:10",
@@ -1283,7 +1299,7 @@
       "latest_update_time": "2026-04-29 16:08",
       "delivered_time": "2026-04-29 16:08",
       "first_seen_at": "2026-04-17 15:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-14 20:06",
@@ -1329,7 +1345,7 @@
       "latest_update_time": "2026-04-30 11:56",
       "delivered_time": "2026-04-30 11:56",
       "first_seen_at": "2026-04-27 10:31 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-25 09:36",
@@ -1365,7 +1381,7 @@
       "latest_update_time": "2026-04-30 13:35",
       "delivered_time": "2026-04-30 13:35",
       "first_seen_at": "2026-04-29 15:19 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-29 10:38:13",
@@ -1396,7 +1412,7 @@
       "latest_update_time": "2026-04-30 13:37",
       "delivered_time": "2026-04-30 13:37",
       "first_seen_at": "2026-04-27 10:31 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-26 10:37",
@@ -1422,7 +1438,7 @@
       "latest_update_time": "2026-04-30 13:37",
       "delivered_time": "2026-04-30 13:37",
       "first_seen_at": "2026-04-28 11:28 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-27 21:21",
@@ -1453,7 +1469,7 @@
       "latest_update_time": "2026-04-30 14:03",
       "delivered_time": "2026-04-30 14:03",
       "first_seen_at": "2026-04-20 09:25 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-20 03:04",
@@ -1489,7 +1505,7 @@
       "latest_update_time": "2026-04-30 15:23",
       "delivered_time": "2026-04-30 15:23",
       "first_seen_at": "2026-04-28 11:28 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-28 11:18:17",
@@ -1525,7 +1541,7 @@
       "latest_update_time": "2026-04-30 18:29",
       "delivered_time": "2026-04-30 18:29",
       "first_seen_at": "2026-04-22 10:32 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-22 07:30",
@@ -1566,7 +1582,7 @@
       "latest_update_time": "2026-05-01 14:39",
       "delivered_time": "2026-05-01 14:39",
       "first_seen_at": "2026-04-29 15:19 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-29 10:38:13",
@@ -1597,7 +1613,7 @@
       "latest_update_time": "2026-05-01 14:48",
       "delivered_time": "2026-05-01 14:48",
       "first_seen_at": "2026-04-29 15:19 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-29 15:17:48",
@@ -1628,7 +1644,7 @@
       "latest_update_time": "2026-05-01 16:39",
       "delivered_time": "2026-05-01 16:39",
       "first_seen_at": "2026-04-29 15:19 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-29 15:17:47",
@@ -1659,7 +1675,7 @@
       "latest_update_time": "2026-05-02 11:02",
       "delivered_time": "2026-05-02 11:02",
       "first_seen_at": "2026-04-30 11:12 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-30 09:49",
@@ -1670,6 +1686,27 @@
           "time": "2026-05-02 11:02",
           "status": "delivered",
           "description": "已递送"
+        }
+      ]
+    },
+    {
+      "order_id": "NL-HD-260413-DL",
+      "salesperson": "Andy Zhou",
+      "carrier": "FedEx",
+      "tracking_number": "871248253059",
+      "shipped_time": "2026-04-30",
+      "current_status": "delivered",
+      "exception_subtype": null,
+      "latest_status_text": "已签收",
+      "latest_update_time": "2026-05-04 10:50",
+      "delivered_time": "2026-05-04 10:50",
+      "first_seen_at": "2026-05-06 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-05-04 10:50",
+          "status": "delivered",
+          "description": "已签收"
         }
       ]
     },
@@ -1685,7 +1722,7 @@
       "latest_update_time": "2026-05-04 14:14",
       "delivered_time": "2026-05-04 14:14",
       "first_seen_at": "2026-04-30 11:12 CST",
-      "last_checked_at": "2026-05-05 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
       "history": [
         {
           "time": "2026-04-29 19:40",
@@ -1696,6 +1733,202 @@
           "time": "2026-05-04 14:14",
           "status": "delivered",
           "description": "已签收"
+        }
+      ]
+    },
+    {
+      "order_id": "LU-LNW-260410-JNP",
+      "salesperson": "Grace Ho",
+      "carrier": "FedEx",
+      "tracking_number": "871146516149",
+      "shipped_time": "2026-04-28",
+      "current_status": "delivered",
+      "exception_subtype": null,
+      "latest_status_text": "已签收",
+      "latest_update_time": "2026-05-05 09:27",
+      "delivered_time": "2026-05-05 09:27",
+      "first_seen_at": "2026-04-28 11:28 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-04-27 22:05",
+          "status": "in_transit",
+          "description": "运单已创建，待提货"
+        },
+        {
+          "time": "2026-04-29 08:32",
+          "status": "in_transit",
+          "description": "运输中"
+        },
+        {
+          "time": "2026-05-04 04:58",
+          "status": "in_transit",
+          "description": "[Luxembourg,DUDELANGE]At…"
+        },
+        {
+          "time": "2026-05-05 09:27",
+          "status": "delivered",
+          "description": "已签收"
+        }
+      ]
+    },
+    {
+      "order_id": "ZM-PH-260410-CIS",
+      "salesperson": "Mia huang",
+      "carrier": "FedEx",
+      "tracking_number": "871028817130",
+      "shipped_time": "2026-04-24",
+      "current_status": "delivered",
+      "exception_subtype": null,
+      "latest_status_text": "已签收",
+      "latest_update_time": "2026-05-05 10:18",
+      "delivered_time": "2026-05-05 10:18",
+      "first_seen_at": "2026-04-27 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-04-26 09:01",
+          "status": "in_transit",
+          "description": "清关处理中"
+        },
+        {
+          "time": "2026-05-04 19:07",
+          "status": "exception",
+          "description": "[Zambia,LUSAKA]At local…"
+        },
+        {
+          "time": "2026-05-05 10:18",
+          "status": "delivered",
+          "description": "已签收"
+        }
+      ]
+    },
+    {
+      "order_id": "LR-SY-260409-FT-DL",
+      "salesperson": "Mia huang",
+      "carrier": "DHL",
+      "tracking_number": "1429727213",
+      "shipped_time": "2026-04-22",
+      "current_status": "delivered",
+      "exception_subtype": null,
+      "latest_status_text": "快件已转交收件人指定清关代理清关并由其负责派送",
+      "latest_update_time": "2026-05-05 13:53",
+      "delivered_time": "2026-05-05 13:53",
+      "first_seen_at": "2026-04-27 10:31 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-04-24 13:34",
+          "status": "in_transit",
+          "description": "快件清关中"
+        },
+        {
+          "time": "2026-05-05 13:53",
+          "status": "delivered",
+          "description": "快件已转交收件人指定清关代理清关并由其负责派送"
+        }
+      ]
+    },
+    {
+      "order_id": "FR-HB-260420-HW",
+      "salesperson": "Jenny Xia",
+      "carrier": "FedEx",
+      "tracking_number": "871239479266",
+      "shipped_time": "2026-04-30",
+      "current_status": "delivered",
+      "exception_subtype": null,
+      "latest_status_text": "已签收",
+      "latest_update_time": "2026-05-05 13:59",
+      "delivered_time": "2026-05-05 13:59",
+      "first_seen_at": "2026-04-30 11:12 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-04-29 19:33",
+          "status": "exception",
+          "description": "运单已创建，待提货"
+        },
+        {
+          "time": "2026-05-05 02:32",
+          "status": "exception",
+          "description": "[France,ALLONZIER LA…"
+        },
+        {
+          "time": "2026-05-05 13:59",
+          "status": "delivered",
+          "description": "已签收"
+        }
+      ]
+    },
+    {
+      "order_id": "IT-ID-260407-HW",
+      "salesperson": "Jenny Xia",
+      "carrier": "FedEx",
+      "tracking_number": "871150372937",
+      "shipped_time": "2026-04-28",
+      "current_status": "delivered",
+      "exception_subtype": null,
+      "latest_status_text": "已签收",
+      "latest_update_time": "2026-05-05 16:42",
+      "delivered_time": "2026-05-05 16:42",
+      "first_seen_at": "2026-04-29 15:19 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-04-29 08:32",
+          "status": "in_transit",
+          "description": "运输中"
+        },
+        {
+          "time": "2026-04-30 04:18",
+          "status": "in_transit",
+          "description": "[France,ROISSY CHARLES DE…"
+        },
+        {
+          "time": "2026-05-04 13:40",
+          "status": "in_transit",
+          "description": "[Italy,TEVEROLA]Departed…"
+        },
+        {
+          "time": "2026-05-05 16:42",
+          "status": "delivered",
+          "description": "已签收"
+        }
+      ]
+    },
+    {
+      "order_id": "W2-SA-SALCO-260427-AB",
+      "salesperson": "Jenny Xia",
+      "carrier": "DHL",
+      "tracking_number": "3756804726",
+      "shipped_time": "2026-04-28",
+      "current_status": "delivered",
+      "exception_subtype": null,
+      "latest_status_text": "已派送",
+      "latest_update_time": "2026-05-05 17:05",
+      "delivered_time": "2026-05-05 17:05",
+      "first_seen_at": "2026-04-29 15:19 CST",
+      "last_checked_at": "2026-05-06 10:31 CST",
+      "history": [
+        {
+          "time": "2026-04-29 10:38:13",
+          "status": "in_transit",
+          "description": "邮件已同步，待物流状态脚本更新"
+        },
+        {
+          "time": "2026-04-29 14:46",
+          "status": "in_transit",
+          "description": "快件正在转运途中"
+        },
+        {
+          "time": "2026-05-04 11:20",
+          "status": "in_transit",
+          "description": "派送时收件人已搬离运单收件地址"
+        },
+        {
+          "time": "2026-05-05 17:05",
+          "status": "delivered",
+          "description": "已派送"
         }
       ]
     }
